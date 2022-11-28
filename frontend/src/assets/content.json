@@ -1,0 +1,27 @@
+{
+    "person": {
+        "id": 0,
+        "password": "unknown",
+        "last_login": "unknown",
+        "is_superuser": false,
+        "slug": "0",
+        "email": "unknown",
+        "name": "unknown",
+        "quote": "unknown",
+        "is_staff": false,
+        "is_active": false,
+        "last_online": "unknown",
+        "style": 0,
+        "avatar": {
+            "photo": "/static/default_avatar.jpg"
+        },
+        "groups": [],
+        "user_permissions": []
+    },
+    "permission": {},
+    "unread_chats": 0,
+    "chats": [],
+    "friends": [],
+    "count_possible": 0,
+    "users": []
+}
