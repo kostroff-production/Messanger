@@ -1,4 +1,4 @@
-# Messanger
+# Messenger
 ### About the App
 Приложение выполняет базовые функции мессенджера.
 <br>
