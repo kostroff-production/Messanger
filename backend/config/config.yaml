@@ -1,0 +1,30 @@
+secret_key: 'django'
+
+
+postgres:
+  database: admin
+  user: admin
+  password: admin
+  host: 8.8.8.8
+  port: 5432
+
+
+email:
+  host: smtp.yandex.ru
+  port: 465
+  user: admin
+  password: admin
+
+
+admin:
+  login: admin
+  password: admin
+
+
+channel:
+  host: '8.8.8.8'
+
+
+cors:
+  ip: 'http://8.8.8.8'
+  host: 'http://kostrov-production.ru'
