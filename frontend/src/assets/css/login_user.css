@@ -1,0 +1,131 @@
+#Logon {
+    width: 420px;
+    height: 200px;
+    margin: 15% auto;
+}
+
+#Logon .form {
+    width: 400px;
+    padding: 22px 32px 20px 32px;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px rgba(0,0,0,.5);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+@media (max-width: 400px) {
+    #Logon {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    #Logon .form {
+        width: 100%;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    #Logon .alert.alert-danger,
+    #Logon .alert.alert-success {
+        width: 340px;
+    }
+}
+
+#Logon .form_input {
+    width: 100%;
+    padding: 10px 0 2px 0;
+    border: none;
+    border-bottom: 1px solid #A7A7A7;
+    background-color: transparent;
+    outline: none;
+    transition: all 0.3s;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    -webkit-border-radius: 0;
+}
+
+.bi.bi-eye-slash {
+    color: #686868;
+}
+.bi.bi-eye-slash:hover {
+    color: #0176FF;
+    cursor: pointer;
+}
+
+.bi.bi-eye {
+    color: #686868;
+}
+.bi.bi-eye:hover {
+    color: #0176FF;
+    cursor: pointer;
+}
+
+.password-parent {
+    width: 100%;
+    border-bottom: 1px solid #A7A7A7;
+}
+
+.password-input {
+    width: 93%;
+    display: inline-block;
+}
+
+.password-eye {
+    display: inline-block;
+}
+
+#Logon .form_input.password {
+    border-bottom: none;
+}
+
+
+#Logon .form_label {
+    margin-bottom: 20px;
+    z-index: -1;
+    color: #A7A7A7;
+    transition: 0.3s;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+#id_username:focus,
+    #id_password:focus {
+        border-bottom: 1px solid #0176FF;
+}
+
+#Logon .form_button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #0071f0;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 83%;
+    margin-top: 10px;
+}
+
+#Logon .form_button:focus,
+    .form_button:hover {
+    background-color: #FFFFFF;
+}
+
+.password-parent:focus-within {
+    border-bottom: 1px solid #0176FF;
+}
+
+#Logon .form_input.password:focus {
+    border-bottom: none;
+}
+
+.alert {
+    width: 400px;
+    padding: 1%;
+}

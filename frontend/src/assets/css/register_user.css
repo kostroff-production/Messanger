@@ -1,0 +1,163 @@
+#Register {
+    width: 420px;
+    height: auto;
+    margin: 15% auto;
+}
+
+#Register .form {
+    width: 400px;
+    padding: 22px 32px 20px 32px;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px rgba(0,0,0,.5);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+@media (max-width: 420px) {
+    #Register {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    #Register .form {
+        width: 100%;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    #Register .alert.alert-danger {
+        width: 340px;
+    }
+}
+
+#Register .form_input {
+    width: 100%;
+    padding: 10px 0 2px 0;
+    border: none;
+    border-bottom: 1px solid #A7A7A7;
+    background-color: transparent;
+    outline: none;
+    transition: all 0.8s;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    -webkit-border-radius: 0;
+}
+
+#id_name_reg,
+#register_btn {
+    display: none;
+}
+
+.parent-trans {
+    transition: all 0.8s;
+}
+
+.bi.bi-eye-slash {
+    color: #686868;
+}
+.bi.bi-eye-slash:hover {
+    color: #0176FF;
+    cursor: pointer;
+}
+
+.bi.bi-eye {
+    color: #686868;
+}
+.bi.bi-eye:hover {
+    color: #0176FF;
+    cursor: pointer;
+}
+
+.password-parent {
+    width: 100%;
+    border-bottom: 1px solid #A7A7A7;
+}
+
+.password-input {
+    width: 93%;
+    display: inline-block;
+}
+
+.password-eye {
+    display: inline-block;
+}
+
+#Register .form_input.password {
+    border-bottom: none;
+}
+
+#Register .form_label {
+    margin-bottom: 8px;
+    z-index: -1;
+    color: #A7A7A7;
+    transition: all 0.8s;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+#Register .form_input:focus {
+    border-bottom: 1px solid #0176FF;
+}
+
+.password-parent:focus-within {
+    border-bottom: 1px solid #0176FF;
+}
+
+#Register .form_input.password:focus {
+    border-bottom: none;
+}
+
+#Register .form_button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #0071f0;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.8s;
+    margin-left: 60%;
+    margin-top: 10px;
+}
+
+#Register .form_button.save {
+    margin-left: 70%;
+}
+
+#Register .form_button:focus,
+    .form_button:hover {
+    background-color: #FFFFFF;
+}
+
+#Register .form_button_next {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #0071f0;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.8s;
+    margin-left: 80%;
+    margin-top: 10px;
+}
+
+#Register .form_button_next:focus,
+    .form_button_next:hover {
+    background-color: #FFFFFF;
+}
+
+.alert.alert-danger {
+    width: 400px;
+    padding: 1%;
+    transition: all 0.8s;
+}
