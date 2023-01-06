@@ -2,7 +2,6 @@ import pytest_asyncio
 from channels.testing import WebsocketCommunicator
 from channels.routing import URLRouter
 from django.urls import re_path
-from backend.wsgi import *
 from chat import consumers
 
 
