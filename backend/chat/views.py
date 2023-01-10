@@ -129,7 +129,7 @@ class PasswordRecoveryViewSet(viewsets.ViewSet):
                 send_mail(
                     subject='Смена пароля',
                     message=mess,
-                    from_email='KostrovProductionServer@yandex.ru',
+                    from_email=config['email']['address'],
                     recipient_list=[post.data['email']]
                 )
 
